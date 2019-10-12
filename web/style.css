@@ -2,18 +2,16 @@ body {
     background-color: beige;
 }
 
-label[name="al"],
-label[name="bl"],
-label[name="hl"]
+#tab_form label
 {
-    width: 250px;
-    margin: 10px;
+    width: 50px;
+    margin: 0;
     padding: 0;
+    display:inline-block;
 }
 
-input[name="a"],
-input[name="b"],
-input[name="h"] {
+#tab_form input
+{
     width: 200px;
 }
 

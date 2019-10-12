@@ -12,14 +12,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <form action="tab.html" method="post">
+    <form id="tab_form" action="tab.html" method="post">
       <label for="a" name="al">Start</label>
       <input type="text" name="a" id="a"><br/>
       <label for="b" name="bl">Finish</label>
       <input type="text" name="b" id="b"><br/>
       <label for="h" name="hl">Step</label>
       <input type="text" name="h" id="h"><br/>
-      <input type="submit" value="Tabulate">
+      <button type="submit">Tabulate</button>
     </form>
   </body>
 </html>
