@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+}
+
+label[name="al"],
+label[name="bl"],
+label[name="hl"]
+{
+    width: 250px;
+    margin: 10px;
+    padding: 0;
+}
+
+input[name="a"],
+input[name="b"],
+input[name="h"] {
+    width: 200px;
+}
+
+table {
+    background-color: black;
+}
+
+th {
+    background-color: aliceblue;
+}
+
+td {
+    background-color: aquamarine;
+}
