@@ -3,7 +3,7 @@ package logic;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
+
 
 public class Calculator {
     private double a;
